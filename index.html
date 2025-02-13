@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./styles/home/hero.css" />
+    <link rel="stylesheet" href="./styles/home/discover.css" />
+    <link rel="stylesheet" href="./styles/home/features.css" />
+    <link rel="stylesheet" href="./styles/home/services.css" />
+    <link rel="stylesheet" href="./styles/home/travel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title> Travelo| Your Travel Agency</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav">
+            <img src="./images/Travelo Logo.jpg" alt="Travelo Logo" />
+            <ul>
+              <li>
+                <a href="/" class="link">Home</a>
+                <a href="/templates/about.html" class="link">About Us</a>
+              </li>
+              <li>
+                <a href="/templates/destinations.html" class="link"
+                  >Destinations</a
+                >
+                <a href="/templates/services.html" class="link">Features</a>
+              </li>
+              <li>
+                <a href="./templates/prices.html" class="link">Pricing</a>
+                <a href="./templates/reviews.html" class="link">Reviews</a>
+              </li>
+              <li>
+                <a href="./templates/terms.html" class="link">Terms & Policy</a>
+                <!-- <a href="./templates/reviews.html" class="link">Reviews</a> -->
+              </li>
+            </ul>
+              <div class="cta first">
+                <a class="primary-btn small">Log In</a>
+              </div>
+            <i
+              class="fa-solid fa-bars"
+              style="color: #000000"
+              id="nav-icon"
+              onclick="toggleSidebar()"
+            ></i>
+            <div id="sidebar" class="sidebar">
+              <ul>
+                <li>
+                  <a href="/" class="link">Home</a>
+                  <a href="/templates/about.html" class="link">About Us</a>
+                </li>
+                <li>
+                  <a href="/templates/destinations.html" class="link"
+                    >Destinations</a
+                  >
+                  <a href="/templates/services.html" class="link">Features</a>
+                </li>
+                <li>
+                  <a href="./templates/prices.html" class="link">Pricing</a>
+                  <a href="./templates/reviews.html" class="link">Reviews</a>
+                </li>
+              </ul>
+              <div class="cta second">
+                <a class="primary-btn small">Log In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container fade-in">
+          <h1>Affordable Adventures, Priceless Memories</h1>
+          <div>
+            <button id="join" class="primary-btn">Join With Us</button>
+            <div>
+              <a href="/templates/about.html">Learn More</a>
+              <img src="./images/icons/chevron-right.svg" alt="right icon" />
+            </div>
+          </div>
+          <div class="hero__content">
+            <img
+              src="./images/Heroimage.png"
+              alt="Hero Image"
+              class="hero-img"
+            />
+            
+            <div>
+              <div>
+                <span>01</span>
+                <img
+                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  alt="Trekking Image"
+                />
+                <div>
+                  <h3>Trekking</h3>
+                  <p>Climbing the tallest mountain in Europe!</p>
+                </div>
+              </div>
+              <div>
+                <span>02</span>
+                <img
+                  src="https://images.unsplash.com/photo-1629248457649-b082812aea6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                  alt="Rafting Image"
+                />
+                <div>
+                  <h3>Rafting</h3>
+                  <p>Let's meet the wildest river and rafting on them!</p>
+                </div>
+              </div>
+              <div>
+                <span>03</span>
+                <img
+                  src="https://images.unsplash.com/photo-1562051544-c8a253660284?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1091&q=80"
+                  alt="Windsurfing Image"
+                />
+                <div>
+                  <h3>Wind Surfing</h3>
+                  <p>Didn't see the tallest wave on a rainy day?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="discover" class="fade-in">
+        <div class="container">
+          <h2>Discover the touch of Nature</h2>
+          <div>
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy_4T4TbHzDLLJK4XhVvdzzvX1s3cymP_EsA&s"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>GOLGUMBAZ</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg9fd28FDvJy6rt-48nqWxpmx4woOWMwQwkw&s"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>DANDELI</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdb6bwfnM8AgMJ7vQxv00GCFp_UOQ5fHaMEg&s"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>COORG</p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://static.india.com/wp-content/uploads/2023/09/mysoore-1.jpg"
+                class="card__background"
+              />
+              <div class="location">
+                <img src="./images/icons/map-pin.png" alt="Location Icon" />
+                <p>MYSURU</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features" class="fade-in">
+        <div class="container">
+          <h2>Our Features</h2>
+          <div>
+            <div>
+              <img src="./images/icons/Stack Icon.png" />
+
+              <h3>Dynamic Packaging</h3>
+              <p>
+                Dynamic packaging is a method used to package holiday bookings
+                to enable consumers to bulid their package
+              </p>
+            </div>
+            <div>
+              <img src="./images/icons/cross.png" />
+
+              <h3>Instant Itinerary</h3>
+              <p>
+                Get a verifiable Flight and Hotel itinerary in less than 5
+                minutes for your next Visa travel application to the place
+              </p>
+            </div>
+            <div>
+              <img src="./images/icons/Stack Icon.png" />
+
+              <h3>Vendor Extant</h3>
+              <p>
+                An integrated decision model for cloud vendor selection using
+                ... of the model are analysed by using sensitivity analysis
+              </p>
+            </div>
+            <div>
+              <img src="./images/icons/box.png" />
+
+              <h3>Mutlitple Verticals</h3>
+              <p>
+                A Vertical, also known as a sales vertical or vertical market,
+                is the industry that a company's offerings are specifically
+              </p>
+            </div>
+            <div>
+              <img src="./images/icons/video.png" />
+
+              <h3>Blogging Platform</h3>
+              <p>
+                "Roam the World, One Story at a Time.
+              Capture moments, share experiences, and inspire wanderlust."
+              </p>
+            </div>
+            <div>
+              <img src="./images/icons/Infinity.png" />
+
+              <h3>Language Locales</h3>
+              <p>
+                A locale defines a user language and contains language and
+                country related parameters. Many languages
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="fade-in">
+        <div class="container">
+          <div>
+            <h2>What services we provide</h2>
+            <div>
+              <div>
+                <h3><span>01.</span> Travel Plan</h3>
+                <p>
+                  Travel plans are not really an instrument themselves but a
+                  delivery mechanism or strategy for mostly others
+                </p>
+              </div>
+              <div>
+                <h3><span>02.</span> Flight Booking</h3>
+                <p>
+                  Discover your next dream destination. Find deals on domestic
+                  and international flights
+                </p>
+              </div>
+              <div>
+                <h3><span>03.</span> Accomodation</h3>
+                <p>
+                  Lodging, food and services or travelling space and related
+                  services.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="image__container">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7sSjnLBhB2uCPiEdYhfss2QRBCUWOE5KNSA&s"
+              alt="Passport Image"
+              class="circular__img1"
+            />
+            <img
+              src="https://i.pinimg.com/736x/c3/d3/3c/c3d33c9944f7bdbe8b83d932afe1a58a.jpg"
+              alt="Surf Van Image"
+              class="circular__img2"
+            />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGvWC0tr4q87Sye1NpyB9MF75NgG7wq9iMw&s"
+              alt="Airplane Image"
+              class="circular__img3"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1526918761918-da528d9558c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1076&q=80"
+              alt="Surfboard Image"
+              class="circular__img4"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="plans" class="fade-in">
+        <div class="container">
+          <div>
+            <img
+              src="./images/Tourist.png"
+              alt="Traveller with flight ticket"
+            />
+          </div>
+          <div>
+            <h2>Plan easy, Play Less & experience more</h2>
+            <div>
+              <img
+                class="tips"
+                src="./images/Circular Text.png"
+                alt="Circuler text"
+              />
+              <p>
+                Traveling is important in life because it will open you up to a
+                new way of living and being. You will experience new connections
+                with people and places and immerse in different cultures, which
+                can help widen you perspective.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="travel" class="fade-in">
+        <div class="container">
+          <h2>Revolutionsing the ways we travel</h2>
+          <div>
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8u7-dd8jF7HrmKowa-kirJ9iGXBkMiCkMyg&s"
+                alt="Hot Air Balloon Images"
+              />
+              <h3>Custom Booking</h3>
+              <p>
+                Custom booking window feature allows you to restrict the
+                available dates for booking for particular duration
+              </p>
+            </div>
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjzWbYVwoClCBOuzKLj-_18AjGJH4ayAhi8g&s"
+                alt="Life Guard House Image"
+              />
+              <h3>End-to-End Messaging</h3>
+              <p>
+                If you're looking for a messaging app that offers secure
+                end-to-end encryption, here's a roundup of the best apps you can
+                use.
+              </p>
+            </div>
+            <div>
+              <img
+                src="data:image/jpeg;base64,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"
+                style="object-position: bottom"
+                alt="Umbrellas Images"
+              />
+              <h3>Instant Itinerary</h3>
+              <p>
+                Get a verifiable Flight and Hotel itineraryj in less than 5
+                minutes for your next Visa travel application to the place
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="wishlist" id="wishlist">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div id="wishlist-container" class="wishlist-container">
+      <div class="wishlist-content" id="wishlist-content"></div>
+      <div>
+        <p style="margin-bottom: 1rem;" id="estimated">Total Estimated Price : <strong id="total-amount">0</strong></p>
+        <button id="buy"class="primary-btn">Checkout Now</button>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div>
+          <div class="socials">
+            <h3>Leading the way in adventure</h3>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <input type="email" placeholder="Enter your e-mail" />
+            <img
+              src="./images/icons/cta-btn.png"
+              alt="Submit Icon"
+              onclick="showPopup()"
+            />
+            <div id="popup" class="popup"></div>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <div>
+            <img src="./images/Travelo Logo.jpg" alt="Travelo Logo" />
+            <p>
+              Travell plans are not really an instrument themselves but a
+              delivery mechanism or strategy for mostly others
+            </p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="/">+91 8899334456</a>
+            <a href="">info@travelo.com</a>
+            <a href="">support@travelo.com</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="/">About Us</a>
+            <a href="">Features</a>
+            <a href="">Careers</a>
+          </div>
+          <div>
+            <h4>Resource</h4>
+            <a href="/">Press Info</a>
+            <a href="">Customers</a>
+            <a href="">Reviews</a>
+          </div>
+        </div>
+        <hr />
+        <div>
+          
+          <div>
+            <p>We Accept Payment:</p>
+            <img src="./images/icons/logos_stripe.svg" alt="Stripe Logo" />
+            <img src="./images/icons/Paypal.svg" alt="Paypal Logo" />
+            <img src="./images/icons/Payonner 1.svg" alt="Payoneer Logo" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./main.js
+  "></script>
+  <script>
+  </script>
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>About Us | Your Travel Agency</title>
+    <style>
+      /* CSS styles */
+      main .container {
+        padding-bottom: 3rem;
+      }
+      p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      h2 {
+        margin-bottom: 1rem;
+        font-size: 3rem;
+      }
+      ul {
+        list-style: none;
+      }
+      ul li {
+        margin-bottom: 0.5rem;
+        color: var(--paragraph);
+      }
+      ul li:last-child {
+        margin-bottom: 2rem;
+      }
+      .team {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 3rem;
+      }
+      .team .team-member {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-right: 2rem;
+      }
+      .team .team-member img {
+        width: 10rem;
+        height: 10rem;
+        object-position: center;
+        border-radius: 50%;
+        margin-right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="nav">
+            <img src="../images/Travelo Logo.jpg" alt="Travelo Logo" />
+            <ul>
+              <li>
+                <a href="../index.html" class="link">Home</a>
+                <a href="#" class="link">About Us</a>
+              </li>
+              <li>
+                <a href="./destinations.html" class="link">Destinations</a>
+                <a href="./services.html" class="link">Features</a>
+              </li>
+              <li>
+                <a href="./prices.html" class="link">Pricing</a>
+                <a href="./reviews.html" class="link">Reviews</a>
+              </li>
+              <li>
+                <a href="./terms.html" class="link"
+                  >Terms & Policy</a
+                >
+              </li>
+            </ul>
+            <div class="cta first">
+              <a class="primary-btn small">Log In</a>
+            </div>
+            <i
+              class="fa-solid fa-bars"
+              style="color: #000000"
+              id="nav-icon"
+              onclick="toggleSidebar()"
+            ></i>
+            <div id="sidebar" class="sidebar">
+              <ul>
+                <li>
+                  <a href="../index.html" class="link">Home</a>
+                  <a href="#" class="link">About Us</a>
+                </li>
+                <li>
+                  <a href="./destinations.html" class="link">Destinations</a>
+                  <a href="./services.html" class="link">Features</a>
+                </li>
+                <li>
+                  <a href="./prices.html" class="link">Pricing</a>
+                  <a href="./reviews.html" class="link">Reviews</a>
+                </li>
+              </ul>
+              <div class="cta second">
+                <a class="primary-btn small">Log In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="fade-in">
+      <div class="container">
+        <h1>About Us</h1>
+        <h2>
+          <i class="fa-solid fa-location-dot" style="color: #f5c94f"></i>
+          Location
+        </h2>
+        <p>51 Street , Bangalore , India</p>
+        <br />
+        <h2>
+          <i class="fa-solid fa-book" style="color: #d58170"></i> Description
+        </h2>
+        <p>
+          Welcome to Your Travel Agency, where adventure begins! We are a team
+          of passionate travel enthusiasts dedicated to providing you with
+          unforgettable travel experiences. Whether you're seeking relaxation on
+          a tropical beach, exploring ancient ruins, or embarking on thrilling
+          adventures, we've got you covered.
+        </p>
+        <br />
+
+        <h2>
+          <i class="fa-solid fa-bell-concierge" style="color: #d411a0"></i> Our
+          Services
+        </h2>
+        <p style="margin-bottom: 0">
+          At Your Travel Agency, we offer a wide range of services to cater to
+          your travel needs:
+        </p>
+        <br />
+        <ul>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Flight
+            bookings
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Hotel
+            reservations
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Customized
+            tour packages
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Car rentals
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Cruise
+            bookings
+          </li>
+        </ul>
+        <br />
+        <h2>
+          <i class="fa-solid fa-lightbulb" style="color: #6a96e2"></i> Why
+          Choose Us?
+        </h2>
+        <p>
+          Here are a few reasons why you should choose us for your next
+          adventure:
+        </p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Experienced
+            and knowledgeable staff
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i>
+            Personalized service tailored to your preferences
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Extensive
+            network of trusted partners and suppliers
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Competitive
+            prices and special offers
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> 24/7
+            customer support
+          </li>
+        </ul>
+        <br />
+        <h2>
+          <i class="fa-solid fa-people-group" style="color: #e6707c"></i> Our
+          Team
+        </h2>
+        <p>
+          We have a team of dedicated professionals who are passionate about
+          travel and are committed to making your journey memorable. Get to know
+          our team:
+        </p>
+        <div class="team">
+          <div class="team-member">
+            <img
+              src="data:image/jpeg;base64,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
+              alt="Team Member 1"
+            />
+            <div>
+              <h3 style="margin-bottom: 0">Jane Smith</h3>
+              <p>Travel Consultant</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq78gQk_KhLhTJepZ6tM81gLuuzH5GCTh-Ig&s"
+              alt="Team Member 1"
+              style="object-position: top"
+            />
+            <div>
+              <h3 style="margin-bottom: 0">John Doe</h3>
+              <p>Tour Guide</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <h2>
+          <i class="fa-solid fa-address-book" style="color: #7be8ea"></i>
+          Contact Us
+        </h2>
+        <p>
+          Have a question or ready to start planning your next adventure?
+          Contact us today:
+        </p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Email:
+            info@yourtravelagency.com
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Phone: +1
+            +91 8899334456
+          </li>
+          <li>
+            <i class="fa-solid fa-check" style="color: #4caf50"></i> Address:
+            51 Street , Bangalore , India
+          </li>
+        </ul>
+      </div>
+    </main>
+    <div class="wishlist" id="wishlist">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div id="wishlist-container" class="wishlist-container">
+      <div class="wishlist-content" id="wishlist-content"></div>
+      <div>
+        <p style="margin-bottom: 1rem;" id="estimated">Total Estimated Price : <strong id="total-amount">0</strong></p>
+        <button id="buy"class="primary-btn">Checkout Now</button>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div>
+          <div class="socials">
+            <h3>Leading the way in adventure</h3>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook-f" style="color: #000000;"></i>
+              </a>
+              
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="newsletter">
+            <h3>Join Our Newsletter</h3>
+            <input type="email" placeholder="Enter your e-mail" />
+            <img
+              src="../images/icons/cta-btn.png"
+              alt="Submit Icon"
+              onclick="showPopup()"
+            />
+            <div id="popup" class="popup"></div>
+          </div>
+        </div>
+        <hr />
+        <div>
+          <div>
+            <img src="../images/Travelo Logo.jpg" alt="Travelo Logo" />
+            <p>
+              Travell plans are not really an instrument themselves but a
+              delivery mechanism or strategy for mostly others
+            </p>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="/">+913134566585</a>
+            <a href="">info@travelo.com</a>
+            <a href="">support@travelo.com</a>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="/">About Us</a>
+            <a href="">Features</a>
+            <a href="">Careers</a>
+          </div>
+          <div>
+            <h4>Resource</h4>
+            <a href="/">Press Info</a>
+            <a href="">Customers</a>
+            <a href="">Reviews</a>
+          </div>
+        </div>
+        <hr />
+        <div>
+          
+          <div>
+            <p>We Accept Payment:</p>
+            <img src="../images/icons/logos_stripe.svg" alt="Stripe Logo" />
+            <img src="../images/icons/Paypal.svg" alt="Paypal Logo" />
+            <img src="../images/icons/Payonner 1.svg" alt="Payoneer Logo" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../main.js"></script>
+</html>
